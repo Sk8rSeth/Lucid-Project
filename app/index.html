@@ -4,25 +4,25 @@
     <meta charset="utf-8">
     <title>Lucid Coding Challenge</title>
 
-    <!-- including Milligram for simplicity -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.min.css">
+    <!-- including Milligram for simplicity/ though responsive becomes a bit harder with milligram -->
+    <link rel="stylesheet" href="https://unpkg.com/picnic@6.4.0/picnic.min.css">
   </head>
 
   <body>
     <section class="container">
 
       <!-- header section with overview info -->
-      <div class="row">
-        <div class="column column-80 column-offset-10">
-          <div class="section-title">Key Benefits</div>
+      <div class="flex one center">
+        <div class="three-fourth">
+          <span class="section-title">Key Benefits</span>
           <h1>Putting Customers and productivty first.</h1>
           <p class="large section-info">Get the competitive edge by providing real-time fraud detection and identity validation to enable the one-click exerience your customers expect.</p>
         </div>
       </div>
 
       <!-- benefits boxes section -->
-      <div class="row">
-        <div class="column box">
+      <div class="flex center one three-1000">
+        <div class="box">
           <div class="icon"><img src="assets/img/customer.png" alt="Customer Rating"></div>
           <div class="box-header">
             <h2>Improve customer experience</h2>
@@ -32,7 +32,7 @@
           </div>
         </div>
 
-        <div class="column box">
+        <div class="box">
           <div class="icon"><img src="assets/img/target.png" alt="Right on Target"></div>
           <div class="box-header">
             <h2>Reduce fraud losses</h2>
@@ -42,7 +42,7 @@
           </div>
         </div>
 
-        <div class="column box">
+        <div class="box">
           <div class="icon"><img src="assets/img/scale.png" alt="Scale"></div>
           <div class="box-header">
             <h2>Scale business, not risk</h2>
