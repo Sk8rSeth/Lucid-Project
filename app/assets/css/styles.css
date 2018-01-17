@@ -1,0 +1,65 @@
+/*
+* Not using sass for sheer speed, and its unnessecary for this small module
+*/
+body {
+  width: 1120px;
+  margin: auto;
+  color: #191919;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  margin: 2rem 0;
+}
+
+.info-section {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  color: #e89c49;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* this is because picnic is weird with gutters */
+.box-container {
+  padding: 1rem;
+}
+
+.box {
+  background-color: #f2f3f4;
+  padding: 1.5rem;
+  height: 370px;
+}
+
+/*
+*
+* Mobile Breakpoint | just choosing same breakpioint as DOM structure
+*
+*/
+@media only screen  and (max-width : 1000px) {
+
+  .info-section {
+    font-size: 2rem;
+  }
+
+  .info-section h1 {
+    line-height: 1;
+  }
+
+  .box-container {
+    margin: 0 3rem;
+  }
+
+  .box {
+    text-align: center;
+    font-size: 2rem;
+    height: 400px;
+  }
+
+
+}
